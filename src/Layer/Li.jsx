@@ -9,7 +9,8 @@ const Li = ({className,href,children,liText}) => {
         end
         style={({ isActive }) => ({
           background: isActive ? "#2D3142" : "transparent",
-          borderRadius: isActive? '40%':'none',
+          borderRadius: isActive? '30px 0 0 30px':'none',
+          
           
           
           
