@@ -3,6 +3,7 @@ import SideBar from '../Component/SideBar'
 import { Outlet } from 'react-router-dom'
 
 import vector2 from '/Vector2.png'
+import Bredcumb from './Bredcumb'
 
 
 const RootLayout = () => {
@@ -13,7 +14,10 @@ const RootLayout = () => {
 
             <main className=' w-full h-full'>
                 <div className='flex justify-between bg-gradient-to-r from-[#212430] to-[#141722] py-[26px] px-7'>
-                    <h2>Performance Comercial</h2>
+                    {/* <h2>Performance Comercial</h2> */}
+                    <div>
+                    <Bredcumb/>
+                    </div>
                     <img  src={vector2} alt="" />
                 </div>
 

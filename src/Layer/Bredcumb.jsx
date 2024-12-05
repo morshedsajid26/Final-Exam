@@ -1,14 +1,13 @@
 import React from 'react'
-import TitleHeader from '../Layer/TitleHeader'
-import { FaAngleRight } from 'react-icons/fa'
+
 
 {/*  */}
 
 const Bredcumb = () => {
   return (
     <div className=''>
-        <TitleHeader headerText={`${window.location.pathname.split('/')[1]} ${window.location.pathname.split('/')[2]}`}/>
-        <p className='flex items-center gap-2 font-DM text-[12px] text-[#767676] capitalize mt-[11px]'>Home <FaAngleRight  />{` ${window.location.pathname.split('/')[1]} ${window.location.pathname.split('/')[2]}`}</p>
+        {/* <TitleHeader headerText={`${window.location.pathname.split('/')[1]} ${window.location.pathname.split('/')[2]}`}/> */}
+        <h2 className=' capitalize '><span className='mr-4'>Performance Comercial</span> {` ${window.location.pathname.split('/')[1]} ${window.location.pathname.split('/')[2]}`}</h2>
     </div>
   )
 }
